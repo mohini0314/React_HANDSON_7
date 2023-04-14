@@ -1,0 +1,106 @@
+.input1{
+    position:absolute;
+    top: 200px;
+    left: 200px;
+    width: 400px;
+    height: 50px;
+  background-image: linear-gradient(rgb(129, 219, 239), rgb(240, 141, 195));
+
+}
+.input2{
+    position:absolute;
+    top: 200px;
+    left: 700px;
+    width: 400px;
+    height: 50px;
+  background-image: linear-gradient(rgb(129, 219, 239), rgb(240, 141, 195));
+
+}
+.input3{
+    position:absolute;
+    top: 400px;
+    left: 200px;
+    width: 400px;
+    height: 50px;
+  background-image: linear-gradient(rgb(129, 219, 239), rgb(240, 141, 195));
+
+}
+.input4{
+    position:absolute;
+    top: 400px;
+    left: 700px;
+    width: 400px;
+    height: 50px;
+  background-image: linear-gradient(rgb(129, 219, 239), rgb(240, 141, 195));
+
+}
+.submit{
+    position:absolute;
+    top: 550px;
+    left: 1100px;
+    width: 250px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 50px;
+    font-size: 25px;
+    
+}
+.cancel{
+    position:absolute;
+    top: 550px;
+    left: 800px;
+    width: 250px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 50px;
+    font-size: 25px;
+}
+@media only screen and (max-width: 600px){
+  .input1{
+      position:absolute;
+      top: 250px;
+      left: 25px;
+      width: 300px;
+      height: 40px;
+      background-image: linear-gradient( rgba(43, 89, 95, 0.916),rgba(159, 27, 97, 0.856));
+
+  }
+  .input2{
+      position:absolute;
+      top: 300px;
+      left: 25px;
+      width: 300px;
+      height: 40px;
+      background-image: linear-gradient( rgba(43, 89, 95, 0.916),rgba(159, 27, 97, 0.856));
+  
+  }
+  .input3{
+      position:absolute;
+      top: 350px;
+      left: 25px;
+      width: 300px;
+      height: 40px;
+      background-image: linear-gradient( rgba(43, 89, 95, 0.916),rgba(159, 27, 97, 0.856));
+  }
+  .input4{
+      position:absolute;
+      top: 400px;
+      left: 25px;
+      width: 300px;
+      height: 40px;
+      background-image: linear-gradient( rgba(43, 89, 95, 0.916),rgba(159, 27, 97, 0.856));
+  }
+  .submit{
+      position:absolute;
+      top: 470px;
+      left: 100px;
+      background-color: bisque;
+  }
+  .cancel{
+      position:absolute;
+      top: 540px;
+      left: 100px;
+      background-color: bisque;
+  }
+  
+}

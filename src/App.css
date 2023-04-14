@@ -1,0 +1,16 @@
+.App{
+  background-color: rgb(31, 160, 160);
+  margin-top:-20px;
+
+}
+.App-header {
+  background-image: linear-gradient(rgb(129, 219, 239), rgb(240, 141, 195),rgb(236, 219, 228));
+  min-height: 150vh;
+  min-width:10vh;
+
+}
+@media only screen and (max-width: 600px){
+  .App-header {
+    background-image: linear-gradient(rgb(208, 239, 129), rgb(43, 89, 95),rgb(159, 27, 97));
+  }
+}

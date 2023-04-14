@@ -1,0 +1,58 @@
+.student{
+    margin: 50px;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bolder;
+}
+.btn{
+    position: absolute;
+    top: 135px;
+    left: 1070px;
+    width: 250px;
+    height: 50px;
+    font-size: 25px;
+    border: 3px solid black;
+    border-radius: 50px;
+}
+.tablediv{
+    margin: 50px;
+}
+.tabledata{
+    height: 350px;
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td{
+    text-align: center;
+    background-color: aliceblue;
+    border-bottom: 1px solid #baafaf;
+}
+
+@media only screen and (max-width: 600px){
+    .tablediv{
+        margin: 30px;
+    }
+    .student{
+        margin: 50px;
+        font-size: 25px;
+    }
+    .btn{
+        top: 300px;
+        left: 40px;
+        background-color: rgba(188, 165, 65, 0.653);
+    }
+    .tablediv{
+        margin-left:30px;
+        margin-top: 80px;
+    }
+    .tabledata{
+        height: 350px;
+        width: 100%;
+        border-collapse: collapse;
+    }
+    th, td{
+        text-align: center;
+        background-color: rgba(239, 215, 163, 0.733);
+        border-bottom: 1px solid rgba(146, 123, 73, 0.886);
+    }
+  }
